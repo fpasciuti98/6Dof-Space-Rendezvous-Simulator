@@ -1,24 +1,26 @@
-Per effetture la simulazione cliccare su run dello script Matlab MAIN-6DoF-RV.
+6-DoF simulator of a space rendez-vous between chaser and target.
+chaser data 
+To carry out the simulation, click run in the Matlab script MAIN-6DoF-RV.
 
-Comparirà un menù dove sarà possibile selezionare due tipi di controllori 
-per la fase di final approach:
+A menu will appear where you can select two types of control algorithms
+for the final approach phase:
 --------------------------------------------
 Select Final-Approach Control Algorithm
 1 : open loop      
 2 : SMC     
 --------------------------------------------
-Digitare il numero desiderato e cliccare invio.
-Un altro menù permette di scegleire l'algoritmo di controllo
-per la dinamica di assetto:
+Type in the desired number and click enter.
+Another menu allows you to choose the control algorithm
+for attitude dynamics:
 --------------------------------------------
 Select Attitude Control Algorithm
 1 : PD     
 2 : SMC   
 --------------------------------------------
-Digitare il numero desiderato e cliccare invio.
-La simulazione viene avviata in Rapid accelerator mode.
+Type in the desired number and click enter.
+The simulation is started in Rapid accelerator mode.
 
-Completata la simulazione compare a schermo il menù di visualizzazione risultati:
+Once the simulation is complete, the results display menu appears on the screen:
 
 --------------------------------------------------------------
 - 1 : print phases initial and final positions        
@@ -33,9 +35,9 @@ Completata la simulazione compare a schermo il menù di visualizzazione risultat
  Enter key: 
 --------------------------------------------------------------
 
-Selezionare il numero relativo ai risultati da visualizzare e cliccare invio.
-Per le animazioni (opzione 4 e 5) è necessario aspettare che siano completate
-prima di chiudere la finestra di plot.
+Select the number of the results to be displayed and click enter.
+For animations (option 4 and 5), it is necessary to wait until they are completed
+before closing the plot window.
 
-Per terminare la visualizzazione dei risultati digitare 9 e
- confermare la propria scelta.
+To end the display of results, type 9 and
+ confirm your choice.
