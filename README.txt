@@ -1,4 +1,4 @@
-Per effetture la simulazione cliccare su run dello script Matlab.
+Per effetture la simulazione cliccare su run dello script Matlab MAIN-6DoF-RV.
 
 Comparirà un menù dove sarà possibile selezionare due tipi di controllori 
 per la fase di final approach:

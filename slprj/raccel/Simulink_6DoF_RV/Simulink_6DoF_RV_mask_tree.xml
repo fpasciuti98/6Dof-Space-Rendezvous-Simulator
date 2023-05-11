@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MF0 version="1.1" packageUris="http://schema.mathworks.com/mf0/SlsaMaskTree/R2020a">
+  <slsa.mm.maskTree.MaskTree type="slsa.mm.maskTree.MaskTree" uuid="3ddd2288-6f92-4e3a-be87-8dd39e440e0f">
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="6dbb594c-550d-475b-b3a0-9489f5e38acb">
+      <blockPath>Simulink_6DoF_RV/PLANT ASSETTO/Coordinate Transformation Conversion</blockPath>
+      <id>Simulink_6DoF_RV:491</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="17ccfba8-cc4d-4390-8ce9-6d8a7d055edd">
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="1aa4eb1b-d96a-4134-8394-3b2484216306">
+          <expression>Quaternion</expression>
+          <name>InputRepresentation</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="c03ce197-0bf0-4247-8ed6-36f2b82cd26e">
+          <expression>ZYX</expression>
+          <name>InputEulerSequence</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="edc81906-9154-48d0-88ca-fcac26d35651">
+          <expression>on</expression>
+          <name>ShowTrVecInputPort</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="bcea5fab-6ac1-44ff-9519-19799ed4b19b">
+          <expression>Rotation Matrix</expression>
+          <name>OutputRepresentation</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="723ca71b-5434-455b-a730-1110854afd56">
+          <expression>ZYX</expression>
+          <name>OutputEulerSequence</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="a1eb32e6-a1f7-4870-bfab-0eb0bf2e192a">
+          <expression>on</expression>
+          <name>ShowTrVecOutputPort</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="201cb317-ae91-4f48-af1e-fa2405405feb">
+          <expression>Interpreted execution</expression>
+          <name>SimulateUsing</name>
+        </dialogParameters>
+        <initializationCode>matlab.system.MLSysBlockIconAndPortLabelsInfo.updateMLSysBlockIconAndPortLabels(gcbh)</initializationCode>
+        <skipInitializationCode>true</skipInitializationCode>
+      </masks>
+      <parentId>root</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="dd95b88f-d5bb-4393-9f5c-8a6986ec1b8f">
+      <childrenIds>Simulink_6DoF_RV:491</childrenIds>
+      <id>root</id>
+    </maskedBlocks>
+    <flags type="slsa.mm.maskTree.MaskTreeFlags" uuid="1ce2a99e-586c-4de1-bff7-6742e726712d"/>
+  </slsa.mm.maskTree.MaskTree>
+</MF0>
