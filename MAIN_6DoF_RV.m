@@ -55,7 +55,7 @@ Vyo = 0;
 Vzo = 0;
 
 r0        = [Xo Yo Zo];                                                     % [m]        initial position
-v0        = [Vxo Vyo Vzo];                                             % [m/s]      initial velocity
+v0        = [Vxo Vyo Vzo];                                                  % [m/s]      initial velocity
 
 q0_0 = 0.5;
 qv_0= [0.5 0.5 0.5];
